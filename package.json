@@ -1,0 +1,26 @@
+{
+  "name": "solana-volume-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "bot": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A Solana volume bot for Pump.fun tokens",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.26.0",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/web3.js": "^1.87.6",
+    "@types/node": "^20.10.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "pumpdotfun-sdk": "^1.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
