@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/image.png" alt="Solana Volume Bot Header"/>
+</p>
+
 # Jop Solana Volume Bot
 
 A bot for creating trading volume on Solana tokens by performing buy and sell operations in a single transaction. **Note: Currently, this bot is primarily designed and tested for tokens on Pump.fun.**
